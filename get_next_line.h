@@ -6,7 +6,7 @@
 /*   By: soamraou <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/17 14:50:27 by soamraou          #+#    #+#             */
-/*   Updated: 2025/12/17 14:53:53 by soamraou         ###   ########.fr       */
+/*   Updated: 2025/12/21 15:00:43 by soamraou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define GET_NEXT_LINE_H
 
 #include <stdlib.h>
+#include <unistd.h>
 
 char *get_next_line(int fd);
 
